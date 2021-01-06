@@ -1,0 +1,30 @@
+MAXIMUM PROFIT
+
+In a game, you have the following:
+
+Pile of N coins
+List of restricted coins
+Conditions
+
+A player can choose at most K coins one by one.
+They cannot choose a value that is present in the list of restricted coins.
+At the beginning of the game, the list of restricted coins is empty. Whenever a player selects a coin, it is added to their profit and also appended in the list of restricted coins.
+A player can discard a coin even if it is not present in the list of restricted coins.
+Task
+
+Your task is to determine the maximum profit that a player can make.
+
+Input format
+
+The first line contains T denoting the number of test cases.
+In each test case:
+The first line contains:
+Two space-separated integers
+Number of coins N
+Maximum number of coins that a player can take K
+The second line contains N space-seperated integers denoting the value of the coins.
+Output format
+
+For each test case, print a single line denoting the maximum profit a player can make.
+Constraints
+
